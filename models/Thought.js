@@ -1,7 +1,7 @@
 const { Schema, model } = require("mongoose");
 const reactionSchema = require("./Reaction");
 
-import dateFormat from "../utils/dateFormat";
+const dateFormat = require("../utils/dateFormat");
 
 const thoughtSchema = new Schema(
   {
@@ -22,4 +22,5 @@ const thoughtSchema = new Schema(
   }
 );
 
-module.exports = thoughtSchema;
+const Thought = model("Thought", thoughtSchema);
+module.exports = Thought;

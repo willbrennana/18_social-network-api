@@ -1,23 +1,21 @@
 # Willy B's Social Network API
 
-## User Story
+For this challenge, I used a NoSQL database with Mongoose to create a social network API that can handle large amounts of unstructured data.
 
-```md
-AS A social media startup
-I WANT an API for my social network that uses a NoSQL database
-SO THAT my website can handle large amounts of unstructured data
-```
+This was my first deep-dive into NoSQL and MongoDB, which called for a process similar to that of [my e-commerce backend](https://github.com/willbrennana/13_ecommerce-backend). Testing API GET, POST, PUT and DELETE routes in Thunder Client to display data in JSON format.
 
-## Acceptance Criteria
+As specified in the Challenge Acceptance Criteria, the backend of this social network achieves the following:
 
-```md
-GIVEN a social network API
-WHEN I enter the command to invoke the application
-THEN my server is started and the Mongoose models are synced to the MongoDB database
-WHEN I open API GET routes in Insomnia for users and thoughts
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete users and thoughts in my database
-WHEN I test API POST and DELETE routes in Insomnia
-THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
-```
+✨ I am able to start my server and the Mongoose models are synced to the MongoDB database.
+
+✨ API GET routes for users and thoughts display data for each in a formatted JSON.
+
+✨ API POST, PUT and DELETE routes successfully create, update and remove users and thoughts in the database.
+
+✨ API POST and DLETE routes successfuly create and remove reactions to thoughts and add/remove friends to a user's friend list.
+
+Below is a screenshot of my latest and greatest:
+
+![](./ProjectScreenshot.png)
+
+To view my video demo, click [here]().

@@ -18,4 +18,4 @@ Below is a screenshot of my latest and greatest:
 
 ![](./ProjectScreenshot.png)
 
-To view my video demo, click [here]().
+To view my video demo, click [here](https://drive.google.com/file/d/17HdCIq9nXGvMY6Rp_7VJG0RlWFih3hin/view?usp=share_link).
